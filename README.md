@@ -23,6 +23,12 @@ Patch the SSDT, Patch Ntoskrnl.exe directly via physical pages to fail KeBugChec
 by that you failed the failure mechanism 
 and you can take over
 
+This took me time to Analyze especially because it juggles multiple Types of callbacks at once which made me blind bot not when i saw that Old ass Abuse
+Cdlft,
+Flt,
+OB (Object Manager)
+
+
 either way enough talking 
 if there was any issues Notify me via my Session ID: 
 056bf8ea1a057b4f351d8b651944252cd4d88416ce6c11761f0c406f228a302301
@@ -30,3 +36,5 @@ if there was any issues Notify me via my Session ID:
 
 and don't forget to raise an issue
 i am always watching 
+
+
