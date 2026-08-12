@@ -79,13 +79,8 @@ FLT_PREOP_CALLBACK_STATUS PreCreateMain(
     // Stop SYSTEM callers from creating ADS in System32
     // This may Confuse you 
     // but it is Logical
-    // If you did Pass ADS to Sys32 like how MSN did it 
-    // You could handle it, System Could Handle it, Admins Could Handle it 
-    // And even then System Callers even while updating DO NOT aquire a ADS to sys32 files in normal operations it overwrites them
-    // i had Monitored for Hours on end while updating the OS when this was loaded 
-    // The Update did not Fail and Windows Did not complain
-    // and even if it does aquire ADS it would gracefully handle it anyway since it rarely adds files to the OS or Core of the OS itself 
-    // But rather Overwrites it that is why i block all from grabbing and ADS to Sys32
+    // my mind is malfunctioning i had been awake for more than 17 hours without any meals or drinks
+    // i wont explain it i am too tired
     if (isSystemCaller && isStream) {
         FltReleaseFileNameInformation(nameInfo);
         Data->IoStatus.Status = STATUS_ACCESS_DENIED;
