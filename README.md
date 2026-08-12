@@ -1,6 +1,8 @@
 # ShieldBreak_Mitigation
 
+
 This is a Direct Response to ShieldBreak Vulnerability 
+i should had named this as ShieldFix LMAO but No there maybe something i didn't account for yet
 
 This is not my best work and i am not that proud of it since it only stops one thing 
 and if that one thing was not Operation Critical then i'd need to Revamp this again which is hell 
